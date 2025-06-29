@@ -2,7 +2,11 @@ import { I18nState } from '@i18n-pro/solid'
 
 export default {
   namespace: 'testNamespace',
-  with$: false,
+  langs: {
+    en: () => import('../i18n/en.json').then((res) => res.default),
+    cht: () => import('../i18n/cht.json').then((res) => res.default),
+    jp: () => import('../i18n/jp.json').then((res) => res.default),
+  },
   formatNumber({ locale, payload, t }) {
     let res = payload as string
     switch (locale) {

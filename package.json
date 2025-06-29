@@ -8,12 +8,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@i18n-pro/solid": "1",
-    "solid-js": "^1.7.8"
+    "@i18n-pro/solid": "2.0.0-alpha.0",
+    "i18n-pro": "3.0.0-alpha.2",
+    "solid-js": "^1.7.11"
   },
   "devDependencies": {
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5",
+    "@types/node": "^24.0.7",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
     "vite-plugin-solid": "^2.7.0"
   }
 }
