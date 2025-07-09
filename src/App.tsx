@@ -15,7 +15,7 @@ const locales = {
   jp: '日本語',
 }
 
- export default function App() {
+export default function App() {
   const { t, setI18n, i18nState } = useI18n()
   const [time, setTime] = createSignal(new Date())
   const [loading, setLoading] = createSignal(false)
