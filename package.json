@@ -8,8 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@i18n-pro/solid": "2.0.0-alpha.0",
-    "i18n-pro": "3.0.0-alpha.2",
+    "@i18n-pro/solid": "2.0.0",
+    "i18n-pro": "3.0.0",
     "solid-js": "^1.7.11"
   },
   "devDependencies": {
